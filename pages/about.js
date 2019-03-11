@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "../components/image";
 
 const About = () => {
   return (
@@ -19,6 +20,7 @@ const About = () => {
         <a>About</a>
       </Link>
       <p>I am learning about Next.js</p>
+      <Image />
     </div>
   );
 };
