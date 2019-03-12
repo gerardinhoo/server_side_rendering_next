@@ -17,7 +17,28 @@ const About = () => {
         </a>
       </Link>
       <Link href="/about">
-        <a>About</a>
+        <a
+          style={{
+            margin: "10px",
+            color: "blue",
+            fontSize: "20px",
+            fontFamily: "georgia"
+          }}
+        >
+          About
+        </a>
+      </Link>
+      <Link href="/robots">
+        <a
+          style={{
+            margin: "10px",
+            color: "blue",
+            fontSize: "20px",
+            fontFamily: "georgia"
+          }}
+        >
+          Robots
+        </a>
       </Link>
       <p>I am learning about Next.js</p>
       <Image />

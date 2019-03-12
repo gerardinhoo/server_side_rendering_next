@@ -3,7 +3,16 @@ import Link from "next/link";
 const Index = () => (
   <div>
     <Link href="/">
-      <a>Home</a>
+      <a
+        style={{
+          margin: "10px",
+          color: "blue",
+          fontSize: "20px",
+          fontFamily: "georgia"
+        }}
+      >
+        Home
+      </a>
     </Link>
     <Link href="/about">
       <a
@@ -15,6 +24,18 @@ const Index = () => (
         }}
       >
         About
+      </a>
+    </Link>
+    <Link href="/robots">
+      <a
+        style={{
+          margin: "10px",
+          color: "blue",
+          fontSize: "20px",
+          fontFamily: "georgia"
+        }}
+      >
+        Robots
       </a>
     </Link>
     <h2>Server Side Rendering with Next.js</h2>
